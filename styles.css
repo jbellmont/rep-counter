@@ -1,0 +1,45 @@
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+  height: 100vh;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.reps-wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+}
+
+.reps {
+  font-size: 200px;
+}
+
+.button-wrapper {
+  width: 100%;
+}
+
+.button {
+  background: lightgrey;
+  border: 0;
+  font-size: 40px;
+  margin-bottom: 16px;
+  padding: 16px;
+  width: 100%;
+}
+
+.plus-button {
+  font-size: 80px;
+}
+
+.button:active {
+  background: black;
+  color: white;;
+}
+
+.plus-button {
+  height: 120px;
+}
